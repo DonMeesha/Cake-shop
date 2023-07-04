@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------NavigationBar------------------------------*/
+#nav-bar
+{
+    position: fixedfi;/*sticky;*/
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #000000!important;
+    background-color: #c7851c;
+}
+.navbar
+{
+    background: #c7851c;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    color: #000000!important;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.nav-icon
+{
+    font-size: 1.5rem;
+}
+.cart-btn
+{
+    position: relative;
+    cursor: pointer;
+    top: 5px;
+    right: 10px;
+}
+.cart-items
+{
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    background: #FFFFCC;
+    padding: 0 2px;
+    border-radius: 30%;
+    color: black;
+}
+
+/*------------------------------EndNavigationBar------------------------------*/
+
+
+.class_round
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-color: black;
+    border-width: medium;
+}
+
+h3
+{
+    font-weight: bold;
+    font-family:cursive;
+    color: #7b241c;
+}
+
+p 
+{
+    font-weight: 600;
+    font-family: monospace;
+    
+}
+/*-------------------------------------------------------------------------*/
+
+footer
+{
+    background-color: #c7851c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

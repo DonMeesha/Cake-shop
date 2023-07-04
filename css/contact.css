@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------NavigationBar------------------------------*/
+#nav-bar
+{
+    position: fixedfi;/*sticky;*/
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #000000!important;
+    background-color: #c7851c;
+}
+.navbar
+{
+    background: #c7851c;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    color: #000000!important;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+/*------------------------------EndNavigationBar------------------------------*/
+{
+  box-sizing: border-box;
+}
+body
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+/* Style inputs */
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #fff;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lemonchiffon;
+}
+
+/* Style the container/contact section */
+.containercontact {
+  border-radius: 5px;
+  background color: rgb(199, 133, 28) ;
+  background: rgba(199, 133, 28, 0.5);
+  padding: 10px;
+  height: 800px;
+}
+
+
+    
+footer
+{
+    background-color: #c7851c;
+}
